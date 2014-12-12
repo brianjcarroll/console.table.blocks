@@ -44,7 +44,7 @@ javascript: (function(){
   Y.Array.forEach( tempArrayToSort, function ( item ) {
     blocks[ item.type ] = item;
   } );
-  
+
   console.warn('Text Blocks are marked as html-block');
   console.table( blocks, [ "count" ] );
   console.info( 'Total number of blocks on this page: ' + totalBlocks );
